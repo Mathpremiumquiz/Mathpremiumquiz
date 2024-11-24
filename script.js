@@ -1,14 +1,29 @@
-// Wait for the DOM to load
-document.addEventListener('DOMContentLoaded', () => {
-    const button = document.getElementById('toggleButton');
+// Modal Logic
+function showDetails(tier) {
+    const modal = document.getElementById('details-modal');
+    const title = document.getElementById('modal-title');
+    const description = document.getElementById('modal-description');
 
-    // Add click event listener to the button
-    button.addEventListener('click', () => {
-        // Toggle between light and dark mode
-        document.body.classList.toggle('dark-mode');
-        document.body.classList.toggle('light-mode');
-    });
+    if (tier === 'FREE') {
+        title.textContent = 'FREE Plan Details';
+        description.textContent = 'The FREE plan offers basic features to get you started with 5 quizzes and 12 lectures.';
+    } else if (tier === 'PREMIUM') {
+        title.textContent = 'PREMIUM Plan Details';
+        description.textContent = 'The PREMIUM plan includes a comprehensive learning experience with quizzes, videos, resources, and certifications.';
+    }
 
-    // Set default mode
-    document.body.classList.add('light-mode');
+    modal.style.display = 'flex';
+}
+
+function closeModal() {
+    const modal = document.getElementById('details-modal');
+    modal.style.display = 'none';
+}
+
+// Close modal when clicking outside content
+window.addEventListener('click', (event) => {
+    const modal = document.getElementById('details-modal');
+    if (event.target === modal) {
+        closeModal();
+    }
 });
