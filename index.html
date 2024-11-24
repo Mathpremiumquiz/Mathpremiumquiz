@@ -3,14 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Mode Toggle</title>
+    <meta name="description" content="FREE vs PREMIUM educational plan comparison.">
+    <title>FREE vs PREMIUM Features</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Dark Mode Example</h1>
-        <p>Click the button below to toggle between Light and Dark Mode!</p>
-        <button id="toggleButton">Toggle Dark Mode</button>
+    <header>
+        <div class="header-content">
+            <h1>FREE vs PREMIUM</h1>
+            <p>Choose the perfect plan to enhance your learning journey.</p>
+        </div>
+    </header>
+    <main>
+        <section class="comparison">
+            <div class="card free">
+                <h2 class="tier-title">FREE</h2>
+                <ul class="features">
+                    <li>
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="green" d="M20.285 4.265l-11.59 11.59-4.95-4.95-1.415 1.415 6.364 6.364 13.004-13.004z" />
+                        </svg>
+                        5 Self-test quizzes for each topic
+                    </li>
+                    <li>
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="green" d="M20.285 4.265l-11.59 11.59-4.95-4.95-1.415 1.415 6.364 6.364 13.004-13.004z" />
+                        </svg>
+                        12 Video lectures
+                    </li>
+                </ul>
+                <button class="action-btn" onclick="showDetails('FREE')">Learn More</button>
+            </div>
+            <div class="card premium">
+                <h2 class="tier-title">PREMIUM</h2>
+                <ul class="features">
+                    <li>
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="green" d="M20.285 4.265l-11.59 11.59-4.95-4.95-1.415 1.415 6.364 6.364 13.004-13.004z" />
+                        </svg>
+                        20 Self-test quizzes for each topic
+                    </li>
+                    <li>
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="green" d="M20.285 4.265l-11.59 11.59-4.95-4.95-1.415 1.415 6.364 6.364 13.004-13.004z" />
+                        </svg>
+                        50+ On-demand video lectures
+                    </li>
+                    <li>
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="green" d="M20.285 4.265l-11.59 11.59-4.95-4.95-1.415 1.415 6.364 6.364 13.004-13.004z" />
+                        </svg>
+                        50+ Downloadable resources for each topic
+                    </li>
+                    <li>
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="green" d="M20.285 4.265l-11.59 11.59-4.95-4.95-1.415 1.415 6.364 6.364 13.004-13.004z" />
+                        </svg>
+                        Downloadable compiled formula sheets for each topic
+                    </li>
+                    <li>
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="green" d="M20.285 4.265l-11.59 11.59-4.95-4.95-1.415 1.415 6.364 6.364 13.004-13.004z" />
+                        </svg>
+                        100+ Ready-made self-test quizzes
+                    </li>
+                    <li>
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="green" d="M20.285 4.265l-11.59 11.59-4.95-4.95-1.415 1.415 6.364 6.364 13.004-13.004z" />
+                        </svg>
+                        Certification of completion
+                    </li>
+                    <li>
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="green" d="M20.285 4.265l-11.59 11.59-4.95-4.95-1.415 1.415 6.364 6.364 13.004-13.004z" />
+                        </svg>
+                        Downloadable workbook
+                    </li>
+                </ul>
+                <div class="price-info">
+                    <p>One-time payment:</p>
+                    <span class="price old-price">$74</span>
+                    <span class="price new-price">$50</span>
+                </div>
+                <button class="action-btn" onclick="showDetails('PREMIUM')">Upgrade Now</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Educational Platform. All Rights Reserved.</p>
+    </footer>
+    <div class="modal" id="details-modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title">Details</h2>
+            <p id="modal-description"></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
