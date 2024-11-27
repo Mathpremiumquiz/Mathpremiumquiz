@@ -1,225 +1,41 @@
-/* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #e0f7fa, #f8f9fa);
-    color: #333;
-    line-height: 1.6;
-}
-
-/* Header */
-header {
-    background: linear-gradient(to right, #0073e6, #005bb5);
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.header-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.header-content p {
-    font-size: 1.2rem;
-    opacity: 0.9;
-}
-
-/* Comparison Section */
-.comparison {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 40px auto;
-    gap: 20px;
-    max-width: 1200px;
-    padding: 0 20px;
-}
-
-.card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    width: 45%;
-    min-width: 300px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
-}
-
-.tier-title {
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: #0073e6;
-}
-
-.card.free .tier-title {
-    color: #0073e6;
-}
-
-.card.premium .tier-title {
-    color: #ff5722;
-}
-
-.features {
-    list-style: none;
-    padding-left: 0;
-}
-
-.features li {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-}
-
-.check-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    vertical-align: middle;
-    fill: green;
-    transition: transform 0.3s ease;
-}
-
-.features li:hover .check-icon {
-    transform: scale(1.2);
-}
-
-.price-info {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.2rem;
-}
-
-.price {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-.old-price {
-    text-decoration: line-through;
-    color: #888;
-}
-
-.new-price {
-    color: #0073e6;
-    font-weight: bold;
-}
-
-.action-btn {
-    display: block;
-    background: #0073e6;
-    color: white;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 20px auto 0;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.3s ease;
-    text-align: center;
-    width: 60%;
-}
-
-.action-btn:hover {
-    background: #005bb5;
-    transform: translateY(-2px);
-}
-
-/* Premium Button */
-.card.premium .action-btn {
-    background: #ff5722;
-}
-
-.card.premium .action-btn:hover {
-    background: #e64a19;
-}
-
-/* Modal */
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
     justify-content: center;
     align-items: center;
-    z-index: 2000;
+    height: 100vh;
+    margin: 0;
 }
 
-.modal-content {
+.container {
+    text-align: center;
     background: white;
-    padding: 30px;
+    padding: 20px 30px;
     border-radius: 10px;
-    width: 90%;
-    max-width: 500px;
-    text-align: center;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-    position: relative;
-    animation: fadeIn 0.5s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: scale(0.8);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-.close-btn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 1.5rem;
-    cursor: pointer;
+h1 {
     color: #333;
-    transition: color 0.3s ease;
+    margin-bottom: 10px;
 }
 
-.close-btn:hover {
-    color: #0073e6;
+p {
+    color: #666;
+    margin-bottom: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 0.9rem;
-    color: #555;
-    background: #f8f9fa;
-    border-top: 1px solid #ddd;
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .comparison {
-        flex-direction: column;
-    }
-
-    .card {
-        width: 100%;
-    }
+button:hover {
+    background-color: #0056b3;
 }
