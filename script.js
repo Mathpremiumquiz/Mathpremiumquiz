@@ -5185,6 +5185,321 @@ const quizQuestions = {
             question: "What is the present value of $1,000 received in 3 years at 6% annual interest rate?",
             options: ["$837.48", "$848.03", "$850.00", "$855.00"],
             correct: 0
+        },
+        {
+            question: "If an investment of $2,000 earns 5% annual simple interest, how much interest is earned after 6 years?",
+            options: ["$500", "$600", "$700", "$800"],
+            correct: 1
+        },
+        {
+            question: "What is the formula for calculating the future value of a growing annuity?",
+            options: [
+                "FV = A × ((1 + r)^n - (1 + g)^n) / (r - g)",
+                "FV = A × ((1 + r)^n - 1) / r",
+                "FV = A × (1 + r)^n",
+                "FV = A × (1 + g)^n"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which of the following is true about an adjustable-rate mortgage (ARM)?",
+            options: [
+                "The interest rate changes periodically based on an index.",
+                "The interest rate is fixed for the life of the loan.",
+                "Payments are lower in the later years.",
+                "The principal balance does not change."
+            ],
+            correct: 0
+        },
+        {
+            question: "What does the Rule of 69.3 help determine?",
+            options: [
+                "The time it takes for an investment to double with continuous compounding.",
+                "The annual interest rate for an investment to double.",
+                "The total interest earned in 10 years.",
+                "The present value of a future sum."
+            ],
+            correct: 0
+        },
+        {
+            question: "If a bond has a face value of $1,000 and pays 8% annual interest, what is the annual coupon payment?",
+            options: ["$80", "$800", "$100", "$1,000"],
+            correct: 0
+        },
+        {
+            question: "What is the internal rate of return (IRR)?",
+            options: [
+                "The discount rate that makes the net present value (NPV) of an investment zero.",
+                "The interest rate on a savings account.",
+                "The rate of interest paid on a bond.",
+                "The amount of money earned from an investment."
+            ],
+            correct: 0
+        },
+        {
+            question: "How do you calculate the loan balance after 3 years on a 5-year loan with equal annual payments?",
+            options: [
+                "Subtract the principal repaid from the original loan amount.",
+                "Multiply the annual payment by the remaining years.",
+                "Divide the total loan by the years elapsed.",
+                "Calculate the present value of remaining payments."
+            ],
+            correct: 3
+        },
+        {
+            question: "What is the present value of a perpetuity paying $500 annually at a discount rate of 10%?",
+            options: ["$5,000", "$50,000", "$500", "$10,000"],
+            correct: 0
+        },
+        {
+            question: "What is the relationship between the nominal interest rate and the real interest rate?",
+            options: [
+                "Real interest rate = Nominal rate - Inflation rate.",
+                "Real interest rate = Nominal rate + Inflation rate.",
+                "Real interest rate = Nominal rate × Inflation rate.",
+                "Real interest rate = Nominal rate ÷ Inflation rate."
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the present value of $2,500 to be received in 3 years if the discount rate is 6% annually?",
+            options: ["$2,100", "$2,350", "$2,099.36", "$2,200"],
+            correct: 2
+        },
+        {
+            question: "What is the monthly payment on a $15,000 car loan at 7% annual interest for 5 years, compounded monthly?",
+            options: ["$297.02", "$289.55", "$300.00", "$310.15"],
+            correct: 0
+        },
+        {
+            question: "What does the present value of an ordinary annuity represent?",
+            options: [
+                "The total value of future payments in today's terms.",
+                "The total interest earned on future payments.",
+                "The future value of periodic payments.",
+                "The total payments over the life of the annuity."
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the future value of a $1,000 annual investment over 8 years at an interest rate of 6% compounded annually?",
+            options: ["$8,600", "$9,385", "$10,000", "$9,200"],
+            correct: 1
+        },
+        {
+            question: "Which of the following best describes an amortization schedule?",
+            options: [
+                "A table showing periodic loan payments, principal, and interest breakdown.",
+                "A chart of interest rate changes over time.",
+                "A summary of total payments made on a loan.",
+                "A schedule of payment due dates."
+            ],
+            correct: 0
+        },
+        {
+            question: "If an investment triples in value over 12 years, what is the approximate annual interest rate using the Rule of 114?",
+            options: ["9.5%", "8.0%", "9.0%", "10.0%"],
+            correct: 2
+        },
+        {
+            question: "How much must you invest today to have $5,000 in 10 years at 4% annual interest compounded annually?",
+            options: ["$3,377.10", "$3,415.50", "$3,780.00", "$4,000.00"],
+            correct: 0
+        },
+        {
+            question: "What is the total amount repaid on a loan of $20,000 at 10% annual simple interest over 6 years?",
+            options: ["$22,000", "$24,000", "$32,000", "$30,000"],
+            correct: 3
+        },
+        {
+            question: "Which of the following is a characteristic of a sinking fund?",
+            options: [
+                "Regular contributions to accumulate a specific amount in the future.",
+                "A loan repayment schedule with fixed payments.",
+                "A one-time investment with compound interest.",
+                "A fund used to cover unexpected expenses."
+            ],
+            correct: 0
+        },
+        {
+            question: "If a stock's dividend grows at a rate of 5% annually, what is the present value of a perpetuity paying $100 annually at a discount rate of 10%?",
+            options: ["$2,000", "$1,500", "$1,800", "$1,000"],
+            correct: 1
+        },
+        {
+            question: "What is the yield to maturity (YTM) of a bond?",
+            options: [
+                "The total return earned by holding a bond until it matures.",
+                "The interest rate paid annually on the bond's face value.",
+                "The price paid for the bond on the market.",
+                "The amount of interest received from the bond annually."
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the difference between the nominal and effective interest rates?",
+            options: [
+                "Nominal rate does not account for compounding; effective rate does.",
+                "Nominal rate includes inflation; effective rate excludes it.",
+                "Nominal rate is monthly, while effective rate is annual.",
+                "There is no difference between the two."
+            ],
+            correct: 0
+        },
+        {
+            question: "If a loan of $50,000 has an annual interest rate of 8% compounded quarterly, what is the total interest paid after 3 years?",
+            options: ["$12,000", "$12,616.55", "$13,000", "$11,000"],
+            correct: 1
+        },
+        {
+            question: "What does the term 'time value of money' signify?",
+            options: [
+                "A dollar today is worth more than a dollar in the future.",
+                "Money does not change value over time.",
+                "Future money is more valuable than present money.",
+                "The concept applies only to loans, not investments."
+            ],
+            correct: 0
+        },
+        {
+            question: "How is the yield of a bond calculated?",
+            options: [
+                "By dividing annual coupon payments by the bond's current market price.",
+                "By multiplying the coupon rate by the bond's face value.",
+                "By subtracting the purchase price from the face value.",
+                "By dividing the bond's current price by its face value."
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the formula for calculating the future value of a lump sum with continuous compounding?",
+            options: [
+                "FV = P × e^(rt)",
+                "FV = P × (1 + r)^t",
+                "FV = P × (1 + rt)",
+                "FV = P / (1 + r)^t"
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the present value of a $10,000 payment due in 5 years, discounted at a rate of 6% annually?",
+            options: ["$7,472.58", "$7,500.00", "$8,000.00", "$8,300.00"],
+            correct: 0
+        },
+        {
+            question: "Which of the following describes a zero-coupon bond?",
+            options: [
+                "A bond that does not pay periodic interest.",
+                "A bond that pays interest only at maturity.",
+                "A bond with no face value.",
+                "A bond that pays semiannual interest."
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the total payment on a 30-year mortgage of $200,000 at a fixed rate of 5% annually, compounded monthly?",
+            options: ["$386,512.57", "$350,000", "$400,000", "$375,000"],
+            correct: 0
+        },
+        {
+            question: "What is the formula for calculating the net present value (NPV) of an investment?",
+            options: [
+                "NPV = ∑(Cash Flow / (1 + r)^t) - Initial Investment",
+                "NPV = Initial Investment × (1 + r)^t",
+                "NPV = Cash Flow × r × t",
+                "NPV = Cash Flow / Initial Investment"
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the primary purpose of an amortization table for a loan?",
+            options: [
+                "To show the breakdown of each payment into principal and interest.",
+                "To calculate the future value of the loan.",
+                "To determine the effective interest rate.",
+                "To show the market value of the loan."
+            ],
+            correct: 0
+        },
+        {
+            question: "If a loan has a principal of $10,000 with 7% annual interest compounded annually for 4 years, what is the total amount owed?",
+            options: ["$12,800.00", "$13,107.85", "$12,500.00", "$14,000.00"],
+            correct: 1
+        },
+        {
+            question: "What does the term 'discount rate' refer to in financial mathematics?",
+            options: [
+                "The rate used to calculate the present value of future cash flows.",
+                "The interest rate charged on loans.",
+                "The annual rate of inflation.",
+                "The rate at which banks lend to each other overnight."
+            ],
+            correct: 0
+        },
+        {
+            question: "Which formula calculates the compound annual growth rate (CAGR)?",
+            options: [
+                "CAGR = [(Ending Value / Beginning Value)^(1/n)] - 1",
+                "CAGR = [(Ending Value × Beginning Value) / n] - 1",
+                "CAGR = [(Ending Value / n)^(1/Beginning Value)] - 1",
+                "CAGR = (Ending Value + Beginning Value) / 2"
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the present value of a $5,000 payment due in 3 years, discounted at 4% annually?",
+            options: ["$4,444.44", "$4,450.00", "$4,629.63", "$4,800.00"],
+            correct: 2
+        },
+        {
+            question: "What is the future value of $2,000 invested at 6% annual interest, compounded semiannually, for 5 years?",
+            options: ["$2,675.00", "$2,681.73", "$2,687.50", "$2,700.00"],
+            correct: 1
+        },
+        {
+            question: "What is the primary characteristic of a callable bond?",
+            options: [
+                "The issuer can repay the bond before its maturity date.",
+                "It pays no interest until maturity.",
+                "It cannot be sold before maturity.",
+                "The bondholder can demand early repayment."
+            ],
+            correct: 0
+        },
+        {
+            question: "How does inflation impact the real rate of return on investments?",
+            options: [
+                "It reduces the real rate of return.",
+                "It increases the nominal rate of return.",
+                "It has no impact on returns.",
+                "It lowers the nominal interest rate."
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the duration of a bond?",
+            options: [
+                "A measure of a bond's sensitivity to interest rate changes.",
+                "The time until the bond matures.",
+                "The total time over which interest is earned.",
+                "The number of years the bond is held."
+            ],
+            correct: 0
+        },
+        {
+            question: "What is the effective annual rate (EAR) for a nominal interest rate of 12% compounded quarterly?",
+            options: ["12.55%", "12.68%", "12.75%", "12.60%"],
+            correct: 1
+        },
+        {
+            question: "What is a sinking fund provision in bond terms?",
+            options: [
+                "A requirement for the issuer to set aside funds to repay the bond.",
+                "A feature allowing the bondholder to sell back the bond early.",
+                "A clause that suspends interest payments temporarily.",
+                "A fund used for unexpected financial needs."
+            ],
+            correct: 0
         }
     ]
 
