@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download PDF</title>
+    <title>Mathematics Quiz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Download Your PDF File</h1>
-        <p>Click the button below to download the file.</p>
-        <button id="downloadBtn">Download PDF</button>
+        <h1>Mathematics Quiz</h1>
+        <select class="topic-select" id="topicSelect">
+            <option value="">Select a Topic</option>
+            <option value="Algebra">Algebra</option>
+            <option value="Geometry">Geometry</option>
+            <option value="Arithmetic">Arithmetic</option>
+            <option value="Trigonometry">Trigonometry</option>
+            <option value="Calculus">Calculus</option>
+            <option value="Statistics">Statistics and Probability</option>
+            <option value="LinearAlgebra">Linear Algebra</option>
+            <option value="DiscreteMath">Discrete Mathematics</option>
+            <option value="NumberTheory">Number Theory</option>
+            <option value="FinancialMath">Financial Mathematics</option>
+        </select>
+        <div class="progress-container" id="progressContainer">
+            <div class="progress-text" id="progressText">Questions Answered: 0/5</div>
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div id="quizContainer" class="quiz-container"></div>
     </div>
     <script src="script.js"></script>
 </body>
