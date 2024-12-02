@@ -5500,7 +5500,330 @@ const quizQuestions = {
                 "A fund used for unexpected financial needs."
             ],
             correct: 0
-        }
+        },
+        
+{
+    question: "What is the future value of $3,000 invested at 5% annual interest compounded annually for 8 years?",
+    options: ["$4,432.00", "$4,477.45", "$4,550.00", "$4,600.00"],
+    correct: 1
+},
+{
+    question: "How does compound interest differ from simple interest over long periods?",
+    options: [
+        "Compound interest grows exponentially, while simple interest grows linearly.",
+        "Compound interest decreases over time, while simple interest remains constant.",
+        "Both grow at the same rate over long periods.",
+        "Simple interest is always higher than compound interest."
+    ],
+    correct: 0
+},
+{
+    question: "What is the formula to calculate the present value of a perpetuity?",
+    options: [
+        "PV = C / r",
+        "PV = C × (1 + r)",
+        "PV = C / (1 + r)^t",
+        "PV = C × r"
+    ],
+    correct: 0
+},
+{
+    question: "If a bond with a face value of $1,000 has a coupon rate of 6% and pays semiannual interest, what is the annual coupon payment?",
+    options: ["$60", "$30", "$120", "$600"],
+    correct: 0
+},
+{
+    question: "What is the discounted payback period?",
+    options: [
+        "The time it takes for the present value of cash flows to cover the initial investment.",
+        "The time it takes to double an investment.",
+        "The total duration of an investment project.",
+        "The time required to repay a loan."
+    ],
+    correct: 0
+},
+{
+    question: "What is the main advantage of investing in an annuity?",
+    options: [
+        "Provides regular income over time.",
+        "Offers a guaranteed high return.",
+        "Minimizes taxes on all income.",
+        "Ensures capital appreciation."
+    ],
+    correct: 0
+},
+{
+    question: "How is the net present value (NPV) of a project interpreted?",
+    options: [
+        "Positive NPV indicates profitability, while negative NPV indicates a loss.",
+        "NPV measures the interest rate of a project.",
+        "NPV always equals the project's future value.",
+        "NPV is irrelevant for decision-making."
+    ],
+    correct: 0
+},
+{
+    question: "What is the effective annual rate (EAR) if the nominal annual interest rate is 10% compounded monthly?",
+    options: ["10.47%", "10.50%", "10.75%", "10.25%"],
+    correct: 0
+},
+{
+    question: "What is the break-even interest rate for refinancing a mortgage?",
+    options: [
+        "The rate at which the cost of refinancing equals the savings from lower interest payments.",
+        "The rate at which the loan balance equals zero.",
+        "The rate at which the mortgage payment becomes fixed.",
+        "The rate that doubles the loan repayment time."
+    ],
+    correct: 0
+},
+{
+    question: "What does the term 'present value factor' refer to?",
+    options: [
+        "The discount factor used to calculate the present value of future cash flows.",
+        "The rate of return on an investment.",
+        "The value of money adjusted for inflation.",
+        "The future value of a current investment."
+    ],
+    correct: 0
+},
+{
+    question: "What is the future value of $3,000 invested at 5% annual interest compounded annually for 8 years?",
+    options: ["$4,432.00", "$4,477.45", "$4,550.00", "$4,600.00"],
+    correct: 1
+},
+{
+    question: "How does compound interest differ from simple interest over long periods?",
+    options: [
+        "Compound interest grows exponentially, while simple interest grows linearly.",
+        "Compound interest decreases over time, while simple interest remains constant.",
+        "Both grow at the same rate over long periods.",
+        "Simple interest is always higher than compound interest."
+    ],
+    correct: 0
+},
+{
+    question: "What is the formula to calculate the present value of a perpetuity?",
+    options: [
+        "PV = C / r",
+        "PV = C × (1 + r)",
+        "PV = C / (1 + r)^t",
+        "PV = C × r"
+    ],
+    correct: 0
+},
+{
+    question: "If a bond with a face value of $1,000 has a coupon rate of 6% and pays semiannual interest, what is the annual coupon payment?",
+    options: ["$60", "$30", "$120", "$600"],
+    correct: 0
+},
+{
+    question: "What is the discounted payback period?",
+    options: [
+        "The time it takes for the present value of cash flows to cover the initial investment.",
+        "The time it takes to double an investment.",
+        "The total duration of an investment project.",
+        "The time required to repay a loan."
+    ],
+    correct: 0
+},
+{
+    question: "What is the main advantage of investing in an annuity?",
+    options: [
+        "Provides regular income over time.",
+        "Offers a guaranteed high return.",
+        "Minimizes taxes on all income.",
+        "Ensures capital appreciation."
+    ],
+    correct: 0
+},
+{
+    question: "How is the net present value (NPV) of a project interpreted?",
+    options: [
+        "Positive NPV indicates profitability, while negative NPV indicates a loss.",
+        "NPV measures the interest rate of a project.",
+        "NPV always equals the project's future value.",
+        "NPV is irrelevant for decision-making."
+    ],
+    correct: 0
+},
+{
+    question: "What is the effective annual rate (EAR) if the nominal annual interest rate is 10% compounded monthly?",
+    options: ["10.47%", "10.50%", "10.75%", "10.25%"],
+    correct: 0
+},
+{
+    question: "What is the break-even interest rate for refinancing a mortgage?",
+    options: [
+        "The rate at which the cost of refinancing equals the savings from lower interest payments.",
+        "The rate at which the loan balance equals zero.",
+        "The rate at which the mortgage payment becomes fixed.",
+        "The rate that doubles the loan repayment time."
+    ],
+    correct: 0
+},
+{
+    question: "What does the term 'present value factor' refer to?",
+    options: [
+        "The discount factor used to calculate the present value of future cash flows.",
+        "The rate of return on an investment.",
+        "The value of money adjusted for inflation.",
+        "The future value of a current investment."
+    ],
+    correct: 0
+},
+{
+    question: "What is the present value of an annuity that pays $500 annually for 10 years at a discount rate of 6%?",
+    options: ["$3,790.79", "$3,900.00", "$4,212.36", "$4,000.00"],
+    correct: 0
+},
+{
+    question: "If a $10,000 loan has an interest rate of 5% compounded annually for 3 years, what is the total interest paid?",
+    options: ["$1,576.25", "$1,500.00", "$1,550.00", "$1,600.00"],
+    correct: 0
+},
+{
+    question: "What is the future value of an ordinary annuity with annual payments of $1,000 for 5 years at 8% interest?",
+    options: ["$5,800.00", "$5,867.40", "$6,000.00", "$5,900.00"],
+    correct: 1
+},
+{
+    question: "Which financial term describes the amount by which a bond’s market price exceeds its face value?",
+    options: ["Premium", "Discount", "Par Value", "Yield"],
+    correct: 0
+},
+{
+    question: "What is the main feature of a zero-coupon bond?",
+    options: [
+        "It pays no periodic interest.",
+        "It pays higher interest than regular bonds.",
+        "It has no maturity date.",
+        "It offers tax-free returns."
+    ],
+    correct: 0
+},
+{
+    question: "What is the formula for calculating the interest portion of a loan payment in the early stages of amortization?",
+    options: [
+        "Interest = Outstanding Balance × Interest Rate",
+        "Interest = Principal × Interest Rate / Time",
+        "Interest = Total Payment × Interest Rate",
+        "Interest = Principal Payment / Total Time"
+    ],
+    correct: 0
+},
+{
+    question: "If an investment has a nominal annual interest rate of 12% compounded monthly, what is the monthly interest rate?",
+    options: ["1%", "1.5%", "0.5%", "1.25%"],
+    correct: 0
+},
+{
+    question: "What does 'payback period' measure in financial analysis?",
+    options: [
+        "The time required to recover the initial investment.",
+        "The total time until the project’s completion.",
+        "The profitability of an investment.",
+        "The interest earned over a project's lifetime."
+    ],
+    correct: 0
+},
+{
+    question: "What is the net present value (NPV) if a project costs $5,000 and generates cash flows of $2,000 annually for 3 years at a discount rate of 10%?",
+    options: ["$633.91", "$700.00", "$750.00", "$800.00"],
+    correct: 0
+},
+{
+    question: "What is the main purpose of portfolio diversification?",
+    options: [
+        "To reduce overall investment risk.",
+        "To maximize short-term returns.",
+        "To guarantee higher profits.",
+        "To minimize investment costs."
+    ],
+    correct: 0
+},
+{
+    question: "What is the future value of $2,000 invested annually for 10 years at an interest rate of 6%, compounded annually?",
+    options: ["$26,362.46", "$24,590.50", "$25,130.22", "$27,000.00"],
+    correct: 0
+},
+{
+    question: "What does the term 'discount rate' typically refer to in financial calculations?",
+    options: [
+        "The rate used to calculate the present value of future cash flows.",
+        "The interest rate offered by banks for savings accounts.",
+        "The average rate of inflation over time.",
+        "The rate charged on overdue loans."
+    ],
+    correct: 0
+},
+{
+    question: "If a loan of $5,000 has an annual interest rate of 10% compounded quarterly, what is the total amount owed after 2 years?",
+    options: ["$6,155.00", "$6,140.49", "$6,200.00", "$6,125.50"],
+    correct: 1
+},
+{
+    question: "What is the primary advantage of using the Rule of 72?",
+    options: [
+        "It provides a quick estimate of the time required to double an investment.",
+        "It calculates the future value of an investment.",
+        "It determines the exact compound interest rate.",
+        "It assesses the risk level of an investment."
+    ],
+    correct: 0
+},
+{
+    question: "How is a bond’s yield to maturity (YTM) calculated?",
+    options: [
+        "By equating the bond’s price to the present value of its future cash flows.",
+        "By dividing the bond’s annual coupon payment by its face value.",
+        "By subtracting the bond’s price from its face value.",
+        "By averaging the bond’s price over its term."
+    ],
+    correct: 0
+},
+{
+    question: "What is the present value of $50,000 to be received in 8 years at a 7% annual discount rate?",
+    options: ["$29,435.40", "$30,051.98", "$28,000.00", "$31,000.00"],
+    correct: 1
+},
+{
+    question: "What is the impact of compounding frequency on the effective annual rate (EAR)?",
+    options: [
+        "Higher compounding frequency increases the EAR.",
+        "Lower compounding frequency increases the EAR.",
+        "Compounding frequency does not affect the EAR.",
+        "EAR remains the same for all frequencies."
+    ],
+    correct: 0
+},
+{
+    question: "What does a negative net present value (NPV) indicate about a project?",
+    options: [
+        "The project is not profitable.",
+        "The project will break even.",
+        "The project has zero risk.",
+        "The project guarantees a positive return."
+    ],
+    correct: 0
+},
+{
+    question: "What is the purpose of a loan amortization table?",
+    options: [
+        "To show how each payment is split between principal and interest.",
+        "To display the loan’s effective annual interest rate.",
+        "To calculate the total interest paid over the life of the loan.",
+        "To compare different loan options."
+    ],
+    correct: 0
+},
+{
+    question: "What is the real interest rate if the nominal interest rate is 8% and the inflation rate is 3%?",
+    options: ["5%", "4.85%", "4%", "5.25%"],
+    correct: 0
+},
+
+
     ]
 
 };
